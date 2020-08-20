@@ -1,0 +1,22 @@
+@import "~normalize.css";
+@import "fonts.css";
+
+.container {
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: "Yeseva One", "Times New Roman", serif;
+}
+
+.logo {
+  width: 1408px;
+  height: 1410px;
+  background-image: url("../assets/images/vinyl.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
