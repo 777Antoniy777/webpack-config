@@ -148,6 +148,15 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(html)$/,
+        use: {
+          loader: 'html-loader',
+          options: {
+            attributes: true,
+          }
+        }
+      },
+      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: createJSLoader(),
